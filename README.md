@@ -38,6 +38,23 @@ In Progress
   - `load_data()`: Load CSV with validation
   - `get_basic_info()`: Display dataset summary
 
+### `data_cleaner.py`
+
+- **Purpose:** Systematic data cleaning pipeline
+- **Features:**
+  - Missing value analysis with statistics
+  - Domain-specific missing value handling (Unknown Director, Not Rated, etc.)
+  - Duplicate removal
+  - Data type validation and conversion (datetime, int64)
+  - Comprehensive cleaning report (before/after metrics)
+- **Key Methods:**
+  - `clean()`: Execute full cleaning pipeline
+  - `export_cleaned_data()`: Save cleaned dataset
+- **Results:**
+  - Original: 8,807 rows → Cleaned: 8,794 rows (0.15% removed)
+  - Handled 4,304 missing values
+  - Removed 3 duplicates
+
 ## Features
 
 - Modular, reusable code architecture
