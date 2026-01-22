@@ -1,16 +1,14 @@
 # Python
 __pycache__/
 *.py[cod]
-*.so
+*$py.class
 .Python
 env/
 venv/
 
-# Data files
-*.csv
-*.xlsx
+# Raw data only (exclude large source files)
 data/raw/*.csv
-# data/processed/*.csv
+data/raw/*.xlsx
 
 # IDE
 .vscode/
