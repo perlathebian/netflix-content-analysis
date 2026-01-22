@@ -55,6 +55,22 @@ In Progress
   - Handled 4,304 missing values
   - Removed 3 duplicates
 
+### `feature_engineer.py`
+
+- **Purpose:** Transform cleaned data into analysis-ready features
+- **Features Created:** 26 engineered features
+  - **Duration:** Numeric minutes/seasons extracted from text
+  - **Temporal:** Year, month, quarter, day of week, content age
+  - **Binary Flags:** Content type, length, recency, adult rating, genres
+  - **Categorical:** Age categories, duration groups, release eras
+  - **Multi-Value:** Primary genre/country, counts, co-production flags
+- **Key Methods:**
+  - `engineer_features()`: Execute full pipeline
+  - `export_engineered_data()`: Save feature-rich dataset
+- **Output:**
+  - Original: 12 columns → Engineered: 38 columns
+  - Ready for statistical analysis and visualization
+
 ## Features
 
 - Modular, reusable code architecture
