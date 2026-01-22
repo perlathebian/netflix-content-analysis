@@ -1,0 +1,8 @@
+Genre,Avg Duration,Median Duration,Min,Max,Count
+Action & Adventure,113.52,108.0,5.0,214.0,859
+Dramas,111.38,108.0,8.0,312.0,1600
+Comedies,106.69,102.0,13.0,253.0,1210
+Horror Movies,98.17,94.0,29.0,171.0,275
+Documentaries,82.15,87.0,10.0,273.0,829
+Children & Family Movies,78.43,86.0,3.0,146.0,605
+Stand-Up Comedy,66.91,65.0,28.0,113.0,334

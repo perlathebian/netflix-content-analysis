@@ -1,0 +1,26 @@
+rating,type,Count
+TV-MA,Movie,2062
+TV-14,Movie,1427
+TV-MA,TV Show,1143
+R,Movie,797
+TV-14,TV Show,730
+TV-PG,Movie,540
+PG-13,Movie,490
+TV-PG,TV Show,321
+PG,Movie,287
+TV-Y7,TV Show,194
+TV-Y,TV Show,175
+TV-Y7,Movie,139
+TV-Y,Movie,131
+TV-G,Movie,126
+TV-G,TV Show,94
+NR,Movie,75
+G,Movie,41
+TV-Y7-FV,Movie,5
+NR,TV Show,4
+NC-17,Movie,3
+UR,Movie,3
+Not Rated,TV Show,2
+Not Rated,Movie,2
+R,TV Show,2
+TV-Y7-FV,TV Show,1

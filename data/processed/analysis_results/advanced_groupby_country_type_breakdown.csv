@@ -1,0 +1,21 @@
+primary_country,type,Count
+Canada,Movie,187
+Canada,TV Show,84
+France,Movie,148
+France,TV Show,64
+India,Movie,927
+India,TV Show,81
+Japan,Movie,85
+Japan,TV Show,173
+Mexico,Movie,86
+Mexico,TV Show,48
+South Korea,Movie,47
+South Korea,TV Show,164
+Spain,Movie,129
+Spain,TV Show,52
+United Kingdom,Movie,382
+United Kingdom,TV Show,245
+United States,Movie,2361
+United States,TV Show,841
+Unknown Country,Movie,440
+Unknown Country,TV Show,390
