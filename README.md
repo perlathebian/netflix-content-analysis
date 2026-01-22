@@ -71,6 +71,22 @@ In Progress
   - Original: 12 columns → Engineered: 38 columns
   - Ready for statistical analysis and visualization
 
+### `analyzer.py`
+
+- **Purpose:** Perform comprehensive statistical analysis and generate insights
+- **Analysis Types:**
+  - **Statistical Summary:** Overall metrics (8,794 titles, 69.72% movies, avg 98.46 min)
+  - **Content Type Analysis:** Age categories, duration groups, release eras
+  - **Genre/Country Analysis:** Top 10 distributions, genre counts
+  - **Time Series:** Yearly, monthly, quarterly trends
+  - **Advanced Groupby:** Multi-dimensional aggregations
+  - **Pivot Tables:** Cross-tabulations (type × era, year × type, genre × type)
+- **Key Methods:**
+  - `run_full_analysis()`: Execute all analyses
+  - `export_results()`: Save 16 CSV files to processed folder
+- **Output:**
+  - 16 analysis result files ready for visualization and reporting
+
 ## Features
 
 - Modular, reusable code architecture
