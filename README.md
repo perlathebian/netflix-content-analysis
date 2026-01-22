@@ -87,6 +87,25 @@ In Progress
 - **Output:**
   - 16 analysis result files ready for visualization and reporting
 
+### `visualizer.py`
+
+- **Purpose:** Create quality data visualizations
+- **Visualization Types:**
+  - **Distribution Plots:** Movie duration (histogram + box plot), content age, genre counts
+  - **Time Series:** Yearly content additions with trends, monthly seasonality
+  - **Categorical Comparisons:** Top 10 genres, top 10 countries, rating-type breakdowns
+  - **Heatmaps:** Year-month patterns (last 10 years), genre-type relationships
+- **Styling:**
+  - Professional color schemes (not default matplotlib)
+  - 300 DPI resolution (print/portfolio quality)
+  - Seaborn statistical styling
+  - Clear labels, titles, legends
+- **Key Methods:**
+  - `create_all_visualizations()`: Generate all 10 plots
+- **Output:**
+  - 10 PNG files in `visualizations/` folder
+  - Ready for GitHub display and presentations
+
 ## Features
 
 - Modular, reusable code architecture
