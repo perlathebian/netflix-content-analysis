@@ -25,6 +25,19 @@ In Progress
 └── main.py          # Entry point
 ```
 
+## Modules
+
+### `data_loader.py`
+
+- **Purpose:** Load and validate Netflix dataset
+- **Features:**
+  - Comprehensive error handling (missing file, empty file, corrupt CSV)
+  - Metadata extraction (file size, row count, memory usage)
+  - Basic dataset overview (shape, dtypes, sample rows)
+- **Key Methods:**
+  - `load_data()`: Load CSV with validation
+  - `get_basic_info()`: Display dataset summary
+
 ## Features
 
 - Modular, reusable code architecture
