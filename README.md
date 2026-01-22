@@ -116,14 +116,35 @@ In Progress
 
 ## Usage
 
+### Quick Start
+
+Run the complete analysis pipeline:
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 
-# Run full analysis
+# Download Netflix dataset from Kaggle and place in data/raw/netflix.csv
+# Link: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+# Run full pipeline
 python main.py
 ```
 
----
+### What Happens
 
-_Enterprise-level data analysis demonstrating software engineering best practices_
+The pipeline executes 6 steps:
+
+1. **Load Data** - Validates and loads raw CSV
+2. **Clean Data** - Handles missing values, removes duplicates, validates types
+3. **Engineer Features** - Creates 26 analytical features
+4. **Analyze Data** - Generates 16 statistical analysis files
+5. **Visualize** - Creates 10 professional plots (300 DPI)
+6. **Report** - Generates `ANALYSIS_REPORT.md` with findings
+
+### Outputs
+
+- **Processed Data:** `data/processed/netflix_cleaned.csv`, `netflix_engineered.csv`
+- **Analysis Results:** `data/processed/analysis_results/` (16 CSV files)
+- **Visualizations:** `visualizations/` (10 PNG files)
+- **Report:** `ANALYSIS_REPORT.md`
